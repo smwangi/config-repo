@@ -8,7 +8,7 @@ spring:
 logging:
     charset: file
     config: file://${user.home}/crm-logs
-    exception-conversion-word: %wEx
+#    exception-conversion-word: %wEx
     file:
         name: crmlogs
         path: /home/wanjohi/crm-logs
