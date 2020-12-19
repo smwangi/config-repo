@@ -1,5 +1,12 @@
 spring:
     name: crm-account-service
+    datasource:
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/crm_account_service_db
+        username: root
+        password: 12345678
+    jpa:
+        hibernate: 
+            ddl-auto: update
     
     
     
